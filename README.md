@@ -1,4 +1,4 @@
-# Expense-tracker
+# Expense Tracker
 A simple web application to help you keep track of your expenses and income. It lets you add, view, and delete records so you can see where your money goes.
 
 Features
