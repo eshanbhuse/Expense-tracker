@@ -1,5 +1,5 @@
 
-export const BASE_URL = 'https://expense-tracker-sandy-tau-96.vercel.app/login';
+export const BASE_URL = 'https://expense-tracker-backend-beta-three.vercel.app/';
 export const API_PATHS = {
     AUTH:{
     LOGIN: '/api/v1/auth/login',
