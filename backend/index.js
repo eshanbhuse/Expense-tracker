@@ -40,7 +40,7 @@ app.use(express.json());
 //         allowedHeaders:["Content-Type","Authorization"],
 //     })
 // );
-app.use(express.json())
+// app.use(express.json())
 
 connectDB()
 
