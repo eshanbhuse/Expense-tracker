@@ -63,7 +63,7 @@ app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 //     console.log(`Server is running on port ${PORT}`));
 
 // Serve React frontend
-const frontendPath = path.join(__dirname, "frontend/build"); // Make sure build folder exists
+const frontendPath = path.join(__dirname, "\build"); // Make sure build folder exists
 app.use(express.static(frontendPath));
 
 // Catch-all route to handle React routing (fixes 404 on refresh)
