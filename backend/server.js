@@ -41,15 +41,15 @@ app.use(express.json());
 // );
 // app.use(express.json())
 
-// connectDB()
+connectDB()
 
 
-app.use((req, res, next) => {
-    if(!isConnected) {
-        connectDB();
-    }
-    next();
-})
+// app.use((req, res, next) => {
+//     if(!isConnected) {
+//         connectDB();
+//     }
+//     next();
+// })
 
 app.use("/api/v1/auth",authRoutes)
 app.use("/api/v1/income",incomeRoutes)
