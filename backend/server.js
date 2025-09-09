@@ -12,7 +12,7 @@ const cors = require('cors');
 
 const allowedOrigins = [
     'http://localhost:5173',          // Local development
-    'https://expense-tracker-sandy-tau-96.vercel.app/login'             // Production frontend URL (set in .env or Vercel)
+    'https://expense-tracker-sandy-tau-96.vercel.app'             // Production frontend URL (set in .env or Vercel)
 ];
 
 app.use(cors({
